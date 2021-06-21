@@ -17,8 +17,7 @@ main, footer{
     padding-top: 5%;
 }
 
-#container{
-    
+nav{   
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
     height: 175px;
