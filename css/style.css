@@ -14,10 +14,10 @@ body{
 }
 
 #container{
-    padding-top: 50px;
-    padding-left: 25px;
+    padding-top: 100px;
+    padding-left: 10px;
     background-color: var(--colore-navbar);
     background-image: url("/img/pattern.png");
-    height: 100px;
+    height: 70px;
 }
 /* /navbar con logo e background */
