@@ -47,5 +47,22 @@ body{
     padding: 16px;
     padding-top: 0px;
 }
-
 /* /il corpo del nostro sito */
+
+/* sezione con tabella e relativa descrizione */
+thead{
+    background-color: #20A9E5;
+}
+table{
+    border-spacing: 0;
+}
+th{
+    width: 33%;
+    color: white;
+    text-align: left;
+}
+.riga-evidenziata{
+    background-color: #B1E5F2;
+}
+
+/* /sezione con tabella e relativa descrizione */
