@@ -1,6 +1,9 @@
 /* NOTA BONUS: PER EVITARE CHE UN CLIENTE VOGLLIA IMPROVVISAMENTE CAMBIARE I COLORI PRINCIPALI DEL SITO POSSIAMO UTILIZZARE DELLE VARIABILI CON :root {--nome: colore;} */
 
+/* NOTA BONUS: PER DARE UN FONT UGUALE A TUTTI I CARATTERI SI PUO' UTILIZZARE IL SELETTORE UNIVERSALE * ASTERISCO */
+
 /* impostazioni generali */
+
 body{
     width: 80%;
     margin: auto;
@@ -22,9 +25,6 @@ body{
 /* /navbar con logo e background */
 
 /* header con titolo, sottotitoli ed immagini */
-h1{
-    font-weight: bold;
-}
 .grigio{
     color: gray;
 }
@@ -38,3 +38,14 @@ h1{
     margin-bottom: 0px;
 }
 /* /header con titolo, sottotitoli ed immagini */
+
+/* il corpo del nostro sito */
+.bg-giallo{
+    background-color: yellow;
+}
+.padding-list{
+    padding: 16px;
+    padding-top: 0px;
+}
+
+/* /il corpo del nostro sito */
