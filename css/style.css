@@ -1,13 +1,9 @@
+/* NOTA BONUS: PER EVITARE CHE UN CLIENTE VOGLLIA IMPROVVISAMENTE CAMBIARE I COLORI PRINCIPALI DEL SITO POSSIAMO UTILIZZARE DELLE VARIABILI CON :root {--nome: colore;} */
+
 /* impostazioni generali */
 body{
     width: 80%;
     margin: auto;
-}
-:root{
-    --colore-navbar: #4EA0FF;
-    --header-tabella:  #20A9E5;
-    --riga-tabella: #B1E5F2;
-    --colore-grigio: grey;
 }
 /* /impostazioni generali */
 
@@ -19,8 +15,8 @@ body{
 #container{
     padding-top: 100px;
     padding-left: 10px;
-    background-color: var(--colore-navbar);
-    background-image: url("/img/pattern.png");
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
     height: 70px;
 }
 /* /navbar con logo e background */
@@ -33,7 +29,7 @@ h1{
     color: gray;
 }
 .colore-header-tabella{
-    color: var(--header-tabella);
+    color: #20A9E5;
 }
 .no-margin-top{
     margin-top: 0px;
