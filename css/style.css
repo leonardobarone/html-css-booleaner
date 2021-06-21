@@ -5,6 +5,9 @@ body{
 }
 :root{
     --colore-navbar: #4EA0FF;
+    --header-tabella:  #20A9E5;
+    --riga-tabella: #B1E5F2;
+    --colore-grigio: grey;
 }
 /* /impostazioni generali */
 
@@ -21,3 +24,21 @@ body{
     height: 70px;
 }
 /* /navbar con logo e background */
+
+/* header con titolo, sottotitoli ed immagini */
+h1{
+    font-weight: bold;
+}
+.grigio{
+    color: gray;
+}
+.colore-header-tabella{
+    color: var(--header-tabella);
+}
+.no-margin-top{
+    margin-top: 0px;
+}
+.no-margin-bottom{
+    margin-bottom: 0px;
+}
+/* /header con titolo, sottotitoli ed immagini */
