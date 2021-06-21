@@ -1,0 +1,23 @@
+/* impostazioni generali */
+body{
+    width: 80%;
+    margin: auto;
+}
+:root{
+    --colore-navbar: #4EA0FF;
+}
+/* /impostazioni generali */
+
+/* navbar con logo e background */
+.logo-sito{
+    width: 200px;
+}
+
+#container{
+    padding-top: 50px;
+    padding-left: 25px;
+    background-color: var(--colore-navbar);
+    background-image: url("/img/pattern.png");
+    height: 100px;
+}
+/* /navbar con logo e background */
